@@ -4,7 +4,12 @@
   "description": "Command line utilities for viewing events in your event lake, replaying events, resubmitting faults and more",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jgilbert01/aws-lambda-stream-cli.git"
+    "url": "https://github.com/pomSense/aws-lambda-stream-cli.git"
+  },
+  "engines": {
+    "npm": "🚨 👉👉 Please use yarn 👈👈 🚨",
+    "yarn": "3.3.1",
+    "node": "16.16.0"
   },
   "scripts": {
     "test": ""
@@ -27,5 +32,6 @@
     "lodash": "^4.17.4",
     "moment": "^2.18.1",
     "yargs": "^7.1.0"
-  }
+  },
+  "packageManager": "yarn@3.3.1"
 }

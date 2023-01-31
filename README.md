@@ -1,15 +1,22 @@
+# TypeScript fork of aws-lambda-stream-cli
 
+Main differences:
 
-# TypeScript for aws-lambda-stream-cli
+- TypeScript
+- Yarn 2
+
+#
+
 Command line utilities for viewing events in your event lake, replaying events, resubmitting faults and more
 
 These utilities support sister project [aws-lambda-stream](https://github.com/jgilbert01/aws-lambda-stream).
 
 ## Installation
 
-* `npm i aws-lambda-stream-cli -g`
+- `npm i aws-lambda-stream-cli -g`
 
 ## Commands
+
 Invoke help commands below for details on the commands and parameters, such as:
 
 ```
@@ -29,21 +36,23 @@ Options:
   --prefix, -p                                          [default: "2018/12/11/"]
 ```
 
-* events help
-* events ls help
-* events count help
-* events display help
-* events replay help
-* faults help
-* faults ls help
-* faults count help
-* faults display help
-* faults resubmit help
+- events help
+- events ls help
+- events count help
+- events display help
+- events replay help
+- faults help
+- faults ls help
+- faults count help
+- faults display help
+- faults resubmit help
 
 ## Configuration Files
+
 Default parameter configurations can be setup in .eventsrc and .faultsrc json files.
 
-* Example .eventsrc file:
+- Example .eventsrc file:
+
 ```
 {
     "bucket": "my-event-lake-s3-stg-bucket-123456789",
@@ -52,6 +61,6 @@ Default parameter configurations can be setup in .eventsrc and .faultsrc json fi
 ```
 
 ### Additional configuration details:
-* https://github.com/yargs/yargs/blob/8789bf4f56940248316c58997b107b029dbdb297/docs/advanced.md#rc-files
-* https://github.com/yargs/yargs/blob/8789bf4f56940248316c58997b107b029dbdb297/docs/api.md#configobject
 
+- https://github.com/yargs/yargs/blob/8789bf4f56940248316c58997b107b029dbdb297/docs/advanced.md#rc-files
+- https://github.com/yargs/yargs/blob/8789bf4f56940248316c58997b107b029dbdb297/docs/api.md#configobject
